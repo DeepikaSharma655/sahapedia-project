@@ -1,0 +1,188 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  padding: 3.5rem 0 0;
+}
+/*header css*/
+.top__nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFF;
+  font-size: 1rem;
+  height: 6.5rem;
+  z-index: 9999;
+  padding-left: 5.75rem;
+  padding-right: 5.75rem;
+}
+nav a {
+  color: #161618;
+  text-decoration: none;
+  text-align: center;
+}
+nav img
+{
+  height: 6.5em;
+  object-fit: contain;
+}
+.navigation{
+  margin-top: 32px;
+  position: fixed;
+    width: 100%;
+    z-index: 9998;
+}
+.menu__nav{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 5.75rem;
+  margin-right: 5.75rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.menu__nav a{
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+/*Banner css*/
+.main-home-section{
+    padding-top: 10%;
+}
+/*Cards css*/
+.card-section{
+  padding-top: 10%;
+}
+
+footer {
+  padding: 5rem 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer img {
+  display: inline-block;
+  height: 100px;
+  width: auto;
+  padding: 0 0.4em;
+}
+/*Senior Level Css*/
+
+
+/*New CSS*/
+.card-title
+{
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-text
+{
+  height: 225px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    margin-bottom: 20px;
+}
+
+
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  width: 300px;
+  height: 30px;
+  padding: 10px 7px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  -webkit-appearance: none;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input::-ms-clear {
+  display: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 30px;
+  width: 300px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 5px 7px;
+  border-bottom: 1px solid #000;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+.react-autosuggest__section-container {
+  border-top: 1px dashed #ccc;
+}
+
+.react-autosuggest__section-container--first {
+  border-top: 0;
+}
+
+.react-autosuggest__section-title {
+  padding: 10px 0 0 10px;
+  font-size: 12px;
+  color: #777;
+}
